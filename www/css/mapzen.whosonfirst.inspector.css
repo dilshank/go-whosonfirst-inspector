@@ -1,5 +1,16 @@
+body {
+    font-family:sans-serif;
+}
+
 #canvas {
     margin: 1em;
+}
+
+#feedback {
+    float:right;
+    color:red;
+    padding:1em;
+    
 }
 
 #map {
