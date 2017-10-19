@@ -94,7 +94,7 @@ func (e *FSIndex) GetById(id int64) (catalog.Record, error) {
 			return record.NewErrorRecord("fs", id, uri, err, t2)
 		}
 
-		return record.NewDefaultRecord("fs", "fs", id, uri, stub, t2)
+		return record.NewDefaultRecord("geojson", "fs", id, uri, stub, t2)
 	}
 
 	t2 = time.Since(t1)
